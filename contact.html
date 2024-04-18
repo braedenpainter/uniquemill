@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	
+	<body>
+		<header>
+			<h1>Unique Mill @ Cabinets</h1>
+			<img src="images/logo.bmp" alt="Logo could not be loaded" />
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<!-- This is were the difference in pages begin -->
+		<div id="form-holder">
+			<form id="form-elements">
+				<label for="custname">Your Name</label>
+				<input type="text" id="custname" placeholder="Enter Your name Here">
+				<label for="messtype">What Kind of Message would you like to send:</label>
+				<input type="radio" id="review" name="typemess" value="Review">
+				<input type="radio" id="jobrequest" name="typemess" value="Job Request">
+				<label for="jobtype">Choose a Job: </label>
+				<select id="jobtype" name="jobtype">
+					<option value="cabinets">Cabinets</option>
+					<option value="birdhouse">Birdhouse</option>
+				</select>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
