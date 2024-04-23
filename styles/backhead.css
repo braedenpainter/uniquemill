@@ -1,0 +1,63 @@
+/* placeholder styles */
+
+body {
+	background-color: rgb(196, 79, 0);
+}
+
+.contained {
+	background-color: rgb(255, 139, 62);
+}
+
+/* Nav Bar Styles */
+nav {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: darkgray;
+}
+
+.active {
+	background-color: black;
+}
+
+/* Banner Styles */
+
+#banner {
+	float: left;
+	width: 100%;
+	height: 64px;
+	background-image: url("../images/bannerbackground.jpg");
+}
+
+#banner img {
+	float: left;
+	width: 64px;
+}
+
+#banner h1 {
+	float: left;
+	margin-top: 12px;
+}
