@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
+		<link type="text/css" rel="stylesheet" href="styles/contactsty.css" />
 	</head>
 	
 	<body>
@@ -22,19 +23,28 @@
 		
 		<!-- This is were the difference in pages begin -->
 		<div id="form-holder">
-			<form id="form-elements">
-				<label for="custname">Your Name</label>
-				<input type="text" id="custname" placeholder="Enter Your name Here">
-				<label for="messtype">What Kind of Message would you like to send:</label>
-				<input type="radio" id="review" name="typemess" value="Review">
-				<input type="radio" id="jobrequest" name="typemess" value="Job Request">
-				<label for="jobtype">Choose a Job: </label>
-				<select id="jobtype" name="jobtype">
-					<option value="cabinets">Cabinets</option>
-					<option value="birdhouse">Birdhouse</option>
-				</select>
-				<input type="submit" value="Submit">
+			<form id="form-elem">
+				<label>Your Name: <input type="text" id="custname" placeholder="Enter Your name Here"></label>
+				<label>Your Email: <input type="text" id="email" placeholder="Enter Email Address"></label>
+				
+				<label><input type="radio" id="review" name="typemess" value="Review">Review</label>
+				<label><input type="radio" id="jobrequest" name="typemess" value="Job Request">Job Request: </label>
+				
+				<label>
+					Choose a Job: 
+					<select id="jobtype" name="jobtype">
+						<option value="cabinets">Cabinets</option>
+						<option value="birdhouse">Birdhouse</option>
+					</select>
+				</label>
+				
+				<input type="submit" value="Submit" id="submitbtn">
 			</form>
+		</div>
+		
+		<div id="emailphone">
+			<p>braedenpainter1999@gmail.com</p>
+			<p>(801)-706-7878</p>
 		</div>
 	</body>
 </html>
