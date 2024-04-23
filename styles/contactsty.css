@@ -1,3 +1,8 @@
+#form-holder {
+	padding-left: 15px;
+}
+
 #form-elem label {
 	display: block;
+	margin-bottom: 10px;
 }
