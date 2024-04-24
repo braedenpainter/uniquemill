@@ -3,6 +3,8 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
 		<link type="text/css" rel="stylesheet" href="styles/contactsty.css" />
+		
+		<script src="scripts/contact.js"></script>
 	</head>
 	
 	<body>
@@ -38,7 +40,9 @@
 					</select>
 				</label>
 				
-				<input type="submit" value="Submit" id="submitbtn">
+				<label>Message: <input type="text" id="descript" placeholder="Describe Your Job"></label>
+				
+				<input type="button" value="Submit" id="submitbtn" onclick="pullinfo()">
 			</form>
 		</div>
 		
