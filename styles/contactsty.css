@@ -1,8 +1,22 @@
+/* Form Styles */
+
 #form-holder {
 	padding-left: 15px;
+	padding-bottom: 10px;
 }
 
 #form-elem label {
 	display: block;
 	margin-bottom: 10px;
+}
+
+/* Direct Contact Styles */
+
+#emailphone {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#emailphone p {
+	margin: 0px;
 }
