@@ -1,0 +1,20 @@
+.contained {
+	padding-left: 10px;
+}
+
+#backbutton {
+	height: 64px;
+}
+
+#backbutton img {
+	height: 64px;
+	width: 64px;
+}
+
+#imageholder img {
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	height: 255px;
+	border: 1px solid black;
+}
