@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
+		<link type="text/css" rel="stylesheet" href="styles/clickpickstyles.css" />
 	</head>
 	
 	<body>
@@ -23,11 +24,24 @@
 		<!-- This is were the difference in pages begin -->
 		<div id="job-holder">
 			<div id="job">
-				<!-- There Will be an image here -->
+				<img src="images/tempjob/temporaryjob1.bmp" alt="could not find job">
 				<div id="overlay">
-					<!-- This will hold the overlay text -->
+					<a onclick="alert('Hello')">
+						This is some temp information. Also i beleive this text wraps.
+					</a>
 				</div>
 			</div>
+			
+			<div id="job">
+				<img src="images/tempjob/temporaryjob2.bmp" alt="could not find job">
+				<div id="overlay">
+					<a onclick="alert('Hello')">
+						More temporary text
+					</a>
+				</div>
+			</div>
+			
+			<!-- For multiple jobs it goes in this section for each job -->
 		</div>
 	</body>
 </html>
