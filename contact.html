@@ -4,6 +4,18 @@
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
 		<link type="text/css" rel="stylesheet" href="styles/contactsty.css" />
 		
+		<!-- Emailjs scripts -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+			(function() {
+				emailjs.init({
+					publicKey: "ZbW3fDP26r_0fwUEK",
+				});
+			})();
+		</script>
+		
+		<!-- My contatct script that runs with emailjs -->
 		<script src="scripts/contact.js"></script>
 	</head>
 	
@@ -40,9 +52,10 @@
 					</select>
 				</label>
 				
-				<label>Message: <input type="text" id="descript" placeholder="Describe Your Job"></label>
+				<label> Message:</label>
+				<textarea placeholder="Enter your message here" id="message"></textarea>
 				
-				<input type="button" value="Submit" id="submitbtn" onclick="pullinfo()">
+				<input type="button" value="Submit" id="submitbtn" onclick="sendEmail()">
 			</form>
 		</div>
 		

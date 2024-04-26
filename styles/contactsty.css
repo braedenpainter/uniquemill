@@ -10,6 +10,14 @@
 	margin-bottom: 10px;
 }
 
+#form-elem textarea {
+	display: block;
+	margin-bottom: 10px;
+	width: 280px;
+	height: 180px;
+	resize: vertical;
+}
+
 /* Direct Contact Styles */
 
 #emailphone {
