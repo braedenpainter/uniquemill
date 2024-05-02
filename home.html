@@ -3,6 +3,12 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
 		<link type="text/css" rel="stylesheet" href="styles/clickpickstyles.css" />
+		<script>
+			function storeInfo(id, imgCount) {
+				localStorage.setItem('imgID', id);
+				localStorage.setItem('imgCount', imgCount);
+			}
+		</script>
 	</head>
 	
 	<body>
@@ -26,7 +32,7 @@
 			<div id="job">
 				<img src="images/tempjob/temporaryjob1.bmp" alt="could not find job">
 				<div id="overlay">
-					<a href="display.html">
+					<a onclick="storeInfo('temporaryjob', '3')" href="display.html" >
 						This is some temp information. Also i beleive this text wraps.
 					</a>
 				</div>
@@ -35,8 +41,26 @@
 			<div id="job">
 				<img src="images/tempjob/temporaryjob2.bmp" alt="could not find job">
 				<div id="overlay">
-					<a href="display.html">
+					<a onclick="imgID('secondaryjob')" href="display.html">
 						More temporary text
+					</a>
+				</div>
+			</div>
+			
+			<div id="job">
+				<img src="images/thumbnails/pets.jpg" alt="Thumbnail Could not be loaded">
+				<div id="overlay">
+					<a onclick="storeInfo('pets_temp', 4)" href="display.html">
+						This is pictures of pets.
+					</a>
+				</div>
+			</div>
+			
+			<div id="job">
+				<img src="images/thumbnails/wife.jpg" alt="Thumbnail Could not be loaded">
+				<div id="overlay">
+					<a onclick="storeInfo('wife_temp', 4)" href="display.html">
+						This is my beautiul wife
 					</a>
 				</div>
 			</div>

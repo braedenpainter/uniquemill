@@ -3,17 +3,16 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="styles/backhead.css" />
 		<link type="text/css" rel="stylesheet" href="styles/displaysty.css" />
+		
+		<script src="scripts/imageLoader.js"></script>
 	</head>
 	
-	<body>
+	<body onload="loadImages(localStorage.getItem('imgID'), localStorage.getItem('imgCount'))">
 		<div id="backbutton" class="contained">
 			<a href="home.html"><img src="images/backbutton.png" alt="could not find"></a>
 		</div>
 		
 		<div id="imageholder" class="contained">
-			<img src="images/tempjob/temporaryjob1.bmp" alt="could not find job">
-			<img src="images/tempjob/temporaryjob2.bmp" alt="could not find job">
-			<img src="images/tempjob/temporaryjob3.jpg" alt="could not find job">
 		</div>
 	</body>
 </html>
